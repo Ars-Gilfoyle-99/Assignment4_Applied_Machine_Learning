@@ -1,0 +1,35 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-7.4.4, pluggy-1.0.0
+rootdir: C:\Users\HP\Desktop\Assignment4AML
+plugins: anyio-4.2.0, cov-6.1.0
+collected 9 items
+
+test.py .........                                                        [100%]
+
+============================== warnings summary ===============================
+..\..\anaconda3\Lib\site-packages\sklearn\base.py:376
+  C:\Users\HP\anaconda3\Lib\site-packages\sklearn\base.py:376: InconsistentVersionWarning: Trying to unpickle estimator CountVectorizer from version 1.6.1 when using version 1.5.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+  https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+    warnings.warn(
+
+..\..\anaconda3\Lib\site-packages\sklearn\base.py:376
+  C:\Users\HP\anaconda3\Lib\site-packages\sklearn\base.py:376: InconsistentVersionWarning: Trying to unpickle estimator MultinomialNB from version 1.6.1 when using version 1.5.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+  https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+    warnings.warn(
+
+..\..\anaconda3\Lib\site-packages\sklearn\base.py:376
+  C:\Users\HP\anaconda3\Lib\site-packages\sklearn\base.py:376: InconsistentVersionWarning: Trying to unpickle estimator Pipeline from version 1.6.1 when using version 1.5.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+  https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.12.7-final-0 _______________
+
+Name       Stmts   Miss  Cover
+------------------------------
+app.py        26     15    42%
+score.py      20      2    90%
+------------------------------
+TOTAL         46     17    63%
+================== 9 passed, 3 warnings in 86.85s (0:01:26) ===================
