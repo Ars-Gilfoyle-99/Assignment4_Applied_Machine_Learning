@@ -1,0 +1,9 @@
+test.py::test_score_smoke PASSED                                                                                 [ 11%]
+test.py::test_score_format PASSED                                                                                [ 22%]
+test.py::test_score_prediction_check PASSED                                                                      [ 33%]
+test.py::test_score_propensity_range PASSED                                                                      [ 44%]
+test.py::test_score_threshold_extremes PASSED                                                                    [ 55%]
+test.py::test_score_content_cases PASSED                                                                         [ 66%]
+test.py::test_score_invalid_input PASSED                                                                         [ 77%]
+test.py::test_flask PASSED                                                                                                    [ 88%]
+test.py::test_docker PASSED   
